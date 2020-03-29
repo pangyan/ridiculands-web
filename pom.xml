@@ -14,9 +14,10 @@
 
     <properties>
         <spring.version>4.3.0.RELEASE</spring.version>
+        <springbootstarter.version>2.2.6.RELEASE</springbootstarter.version>
 		<springsecurity.version>4.1.0.RELEASE</springsecurity.version> 
-     	<springsecurityoauth2.version>2.0.10.RELEASE</springsecurityoauth2.version>		
-        <jackson.version>2.7.4</jackson.version>
+     	<springsecurityoauth2.version>2.0.19.RELEASE</springsecurityoauth2.version>		
+        <jackson.version>2.9.10.3</jackson.version>
         <logback.version>1.1.7</logback.version>
     </properties>
 
@@ -67,6 +68,13 @@
             <artifactId>javax.servlet-api</artifactId>
             <version>3.1.0</version>
             <scope>provided</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-parent -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+            <version>${springbootstarter.version}</version>
         </dependency>
     </dependencies>
 
