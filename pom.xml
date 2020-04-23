@@ -17,7 +17,7 @@
         <springbootstarter.version>2.2.6.RELEASE</springbootstarter.version>
 		<springsecurity.version>4.1.0.RELEASE</springsecurity.version> 
      	<springsecurityoauth2.version>2.0.19.RELEASE</springsecurityoauth2.version>		
-        <jackson.version>2.9.10.3</jackson.version>
+        <jackson.version>2.9.10.4</jackson.version>
         <logback.version>1.1.7</logback.version>
     </properties>
 
