@@ -13,7 +13,7 @@
     <packaging>war</packaging>
 
     <properties>
-        <spring.version>4.3.0.RELEASE</spring.version>
+        <spring.version>5.2.20.RELEASE</spring.version>
         <springbootstarter.version>2.2.6.RELEASE</springbootstarter.version>
 		<springsecurity.version>5.2.10.RELEASE</springsecurity.version> 
      	<springsecurityoauth2.version>2.0.19.RELEASE</springsecurityoauth2.version>		
